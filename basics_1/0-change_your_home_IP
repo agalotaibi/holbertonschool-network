@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# configures localhost resolves to 127.0.0.2
+
+echo -e "127.0.0.2\tlocalhost\n8.8.8.8\tfacebook.com" | sudo tee -a /etc/hosts
